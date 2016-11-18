@@ -9,7 +9,7 @@ drv <- dbDriver("PostgreSQL")
 # note that "con" will be used later in each connection to the database
 con <- dbConnect(drv, dbname = "molinux",
                  host = "85.214.202.219", port = 5432,
-                 user = "postgres", password = '?z?8m3RY~%QbXxd')
+                 user = "", password = '')
 
 #csv input
 MyData <- read.csv(file="/home/mcb/Schreibtisch/Daten_Vorlandmanagement_fuer_CH.csv", header=TRUE, sep=";")
