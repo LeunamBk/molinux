@@ -1,0 +1,6 @@
+source(paste(getwd(), '/config/config.R', sep=''))
+source(paste(getwd(), '/functions/db/dbCon.R', sep=''))
+source(paste(getwd(), '/functions/db/queries.R', sep=''))
+source(paste(getwd(), '/functions/plots/utils.R', sep=''))
+source(paste(getwd(), '/config/dbtables.R', sep=''))
+source(paste(getwd(), '/functions/lib.R', sep=''))
