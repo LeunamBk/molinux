@@ -4,9 +4,7 @@
 packages <- c("RPostgreSQL", 
               "shiny", 
               "shinydashboard", 
-              "plyr","rprojroot", 
-              "devtools",
-              "ezknitr")
+              "plyr")
 
 # handle package installatiion and initialisation CRAN
 loadPackages <- function(packages){
